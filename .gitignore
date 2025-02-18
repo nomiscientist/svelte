@@ -12,8 +12,6 @@ coverage
 .eslintcache
 
 # dotenv environment variables file
-.env
-.env.test
 
 # build output
 .vercel
@@ -24,3 +22,4 @@ coverage
 tmp
 
 benchmarking/compare/.results
+config.bat
