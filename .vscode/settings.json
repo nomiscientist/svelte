@@ -1,6 +1,15 @@
 {
-	"search.exclude": {
-		"sites/svelte-5-preview/static/*": true
-	},
-	"typescript.tsdk": "node_modules/typescript/lib"
+  "search.exclude": {
+    "sites/svelte-5-preview/static/*": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
